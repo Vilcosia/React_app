@@ -9,20 +9,20 @@ export default function landing() {
   <main className={styles.body}>
 
     <div className={styles.heading}>
-        Welcome To Lib
+        Welcome To K-Library
         
     </div>
     <div className={styles.image}>
-        <img className={styles.image} src="https://freesvg.org/img/Buecher-coloured.png" alt="" />
+        <img className={styles.image} src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Book.svg/448px-Book.svg.png" alt="" />
     </div>
 
     <div className={styles.subtitle}>
-    The enthusiasm for books never stops.
+    The enthusiasm for books never stops.Get your favourate book on Lib!!
     </div>
 
     <h1 className={styles.title}>
      
-       <a className='btn' href='/Login'> Get Started </a>
+    <Link className='btn' href="/Login">Get started</Link>
       
  </h1>
 
